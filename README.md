@@ -25,7 +25,9 @@ During development, the React dev server runs separately (with HMR) while Spring
    cd backend
    mvn spring-boot:run
    ```
-   - API base URL: `http://localhost:8080/api/products`
+   - Frontend URL: `http://localhost:8080/`
+   - API base URL: `http://localhost:8080/api/hello`
+   - DynamoDB Manager URL: `http://localhost:8001`
    - To enable remote debugging on port 5005:
      ```bash
      ./mvnw spring-boot:run \
